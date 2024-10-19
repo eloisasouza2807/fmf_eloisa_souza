@@ -13,7 +13,7 @@ font_style = ('Helvetica', 12)
 
 janela = Tk()
 janela.title('Calculadora de IMC')
-janela.geometry('400x300')
+janela.geometry('400x350')
 janela.configure(background=co0)
 
 # Função para calcular o IMC
@@ -77,7 +77,7 @@ def limpar():
     l_resultado.config(text='---')
     l_resultado_texto.config(text='O seu IMC é:')
 
-b_limpar = Button(frame_baixo, command=limpar, text='Limpar', width=15, font=font_style, bg=co2, fg=co0)
-b_limpar.grid(row=5, columnspan=2, pady=5)
+FeitoPor = Label(frame_baixo, text='Desenvolvido por Eloisa Souza', bg=co0, fg=co1)
+FeitoPor.grid(row=6, columnspan=2, pady=5)
 
 janela.mainloop()
