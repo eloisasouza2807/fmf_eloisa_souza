@@ -1,3 +1,7 @@
+#Author:Eloisa Souza Nascimento
+#Data:Novembro de 2024
+#Projeto 03
+
 from tkinter import *
 from tkinter import messagebox
 
